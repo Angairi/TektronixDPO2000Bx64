@@ -1,0 +1,26 @@
+HKCR
+{
+	Tkdpo2k3k4k.Math.1 = s 'Tkdpo2k3k4kMath Class'
+	{
+		CLSID = s '{fd30129f-1984-47f0-8a9b-aa580d73d9e7}'
+	}
+	Tkdpo2k3k4k.Math = s 'Tkdpo2k3k4kMath Class'
+	{
+		CLSID = s '{fd30129f-1984-47f0-8a9b-aa580d73d9e7}'
+		CurVer = s 'Tkdpo2k3k4k.Math.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {fd30129f-1984-47f0-8a9b-aa580d73d9e7} = s 'Tkdpo2k3k4kMath Class'
+		{
+			ProgID = s 'Tkdpo2k3k4k.Math.1'
+			VersionIndependentProgID = s 'Tkdpo2k3k4k.Math'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Both'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{bc60a087-53df-40c4-ad8c-eab8ea632be5}'
+		}
+	}
+}

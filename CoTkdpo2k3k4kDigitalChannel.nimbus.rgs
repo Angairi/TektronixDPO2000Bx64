@@ -1,0 +1,26 @@
+HKCR
+{
+	Tkdpo2k3k4k.DigitalChannel.1 = s 'Tkdpo2k3k4kDigitalChannel Class'
+	{
+		CLSID = s '{44cf593b-4046-46aa-9046-e42cdcb091bb}'
+	}
+	Tkdpo2k3k4k.DigitalChannel = s 'Tkdpo2k3k4kDigitalChannel Class'
+	{
+		CLSID = s '{44cf593b-4046-46aa-9046-e42cdcb091bb}'
+		CurVer = s 'Tkdpo2k3k4k.DigitalChannel.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {44cf593b-4046-46aa-9046-e42cdcb091bb} = s 'Tkdpo2k3k4kDigitalChannel Class'
+		{
+			ProgID = s 'Tkdpo2k3k4k.DigitalChannel.1'
+			VersionIndependentProgID = s 'Tkdpo2k3k4k.DigitalChannel'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Both'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{bc60a087-53df-40c4-ad8c-eab8ea632be5}'
+		}
+	}
+}

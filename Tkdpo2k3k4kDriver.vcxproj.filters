@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{963a6ded-c09c-4c5b-abcb-daa5bc3032b0}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Generated Files - Nimbus">
+      <UniqueIdentifier>{211ad657-ca69-47e1-af70-a896b51dee13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CoTkdpo2k3k4k.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoTkdpo2k3k4kBus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoTkdpo2k3k4kChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoTkdpo2k3k4kDigitalChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoTkdpo2k3k4kMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoTkdpo2k3k4kMeasurementSlot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoTkdpo2k3k4kReference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoTkdpo2k3k4kSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tkdpo2k3k4k.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tkdpo2k3k4k.Module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="_Tkdpo2k3k4k_i.c">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoTkdpo2k3k4k.nimbus.cpp">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClCompile>
+    <ClCompile Include="CoTkdpo2k3k4kBus.nimbus.cpp">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClCompile>
+    <ClCompile Include="CoTkdpo2k3k4kChannel.nimbus.cpp">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClCompile>
+    <ClCompile Include="CoTkdpo2k3k4kDigitalChannel.nimbus.cpp">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClCompile>
+    <ClCompile Include="CoTkdpo2k3k4kMath.nimbus.cpp">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClCompile>
+    <ClCompile Include="CoTkdpo2k3k4kMeasurementSlot.nimbus.cpp">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClCompile>
+    <ClCompile Include="CoTkdpo2k3k4kReference.nimbus.cpp">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClCompile>
+    <ClCompile Include="CoTkdpo2k3k4kSearch.nimbus.cpp">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClCompile>
+    <ClCompile Include="Enums.nimbus.cpp">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClCompile>
+    <ClCompile Include="ForwardingShims.nimbus.cpp">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClCompile>
+    <ClCompile Include="Tkdpo2k3k4k.nimbus.cpp">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Tkdpo2k3k4k.xml">
+      <Filter>Source Files</Filter>
+    </Xml>
+    <Xml Include="Tektronix.Tkdpo2k3k4k.Interop.xml">
+      <Filter>Generated Files - Nimbus</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tkdpo2k3k4k.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_Tkdpo2k3k4k.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoTkdpo2k3k4k.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoTkdpo2k3k4kBus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoTkdpo2k3k4kChannel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoTkdpo2k3k4kDigitalChannel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoTkdpo2k3k4kMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoTkdpo2k3k4kMeasurementSlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoTkdpo2k3k4kReference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoTkdpo2k3k4kSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoTkdpo2k3k4k.nimbus.h">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClInclude>
+    <ClInclude Include="CoTkdpo2k3k4kBus.nimbus.h">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClInclude>
+    <ClInclude Include="CoTkdpo2k3k4kChannel.nimbus.h">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClInclude>
+    <ClInclude Include="CoTkdpo2k3k4kDigitalChannel.nimbus.h">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClInclude>
+    <ClInclude Include="CoTkdpo2k3k4kMath.nimbus.h">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClInclude>
+    <ClInclude Include="CoTkdpo2k3k4kMeasurementSlot.nimbus.h">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClInclude>
+    <ClInclude Include="CoTkdpo2k3k4kReference.nimbus.h">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClInclude>
+    <ClInclude Include="CoTkdpo2k3k4kSearch.nimbus.h">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorReporter.nimbus.h">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClInclude>
+    <ClInclude Include="ForwardingShims.nimbus.h">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.nimbus.h">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClInclude>
+    <ClInclude Include="Tkdpo2k3k4k.h">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClInclude>
+    <ClInclude Include="Tkdpo2k3k4k.nimbus.h">
+      <Filter>Generated Files - Nimbus</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CoTkdpo2k3k4k.nimbus.rgs">
+      <Filter>Generated Files - Nimbus</Filter>
+    </None>
+    <None Include="CoTkdpo2k3k4kBus.nimbus.rgs">
+      <Filter>Generated Files - Nimbus</Filter>
+    </None>
+    <None Include="CoTkdpo2k3k4kChannel.nimbus.rgs">
+      <Filter>Generated Files - Nimbus</Filter>
+    </None>
+    <None Include="CoTkdpo2k3k4kDigitalChannel.nimbus.rgs">
+      <Filter>Generated Files - Nimbus</Filter>
+    </None>
+    <None Include="CoTkdpo2k3k4kMath.nimbus.rgs">
+      <Filter>Generated Files - Nimbus</Filter>
+    </None>
+    <None Include="CoTkdpo2k3k4kMeasurementSlot.nimbus.rgs">
+      <Filter>Generated Files - Nimbus</Filter>
+    </None>
+    <None Include="CoTkdpo2k3k4kReference.nimbus.rgs">
+      <Filter>Generated Files - Nimbus</Filter>
+    </None>
+    <None Include="CoTkdpo2k3k4kSearch.nimbus.rgs">
+      <Filter>Generated Files - Nimbus</Filter>
+    </None>
+    <None Include="PostBuild.nimbus.bat">
+      <Filter>Generated Files - Nimbus</Filter>
+    </None>
+    <None Include="PostBuild.setup.bat">
+      <Filter>Generated Files - Nimbus</Filter>
+    </None>
+    <None Include="Resources.nimbus.rc2">
+      <Filter>Generated Files - Nimbus</Filter>
+    </None>
+    <None Include="Tkdpo2k3k4k-x64.nimbus.def">
+      <Filter>Generated Files - Nimbus</Filter>
+    </None>
+    <None Include="Tkdpo2k3k4k-x86.nimbus.def">
+      <Filter>Generated Files - Nimbus</Filter>
+    </None>
+    <None Include="Tkdpo2k3k4k.fp">
+      <Filter>Generated Files - Nimbus</Filter>
+    </None>
+    <None Include="Tkdpo2k3k4k.nimbus.rgs">
+      <Filter>Generated Files - Nimbus</Filter>
+    </None>
+    <None Include="Tkdpo2k3k4k.sub">
+      <Filter>Generated Files - Nimbus</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="Tkdpo2k3k4k.nimbus.idl">
+      <Filter>Generated Files - Nimbus</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ErrorMessages.nimbus.mc">
+      <Filter>Generated Files - Nimbus</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

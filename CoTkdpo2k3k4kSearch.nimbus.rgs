@@ -1,0 +1,26 @@
+HKCR
+{
+	Tkdpo2k3k4k.Search.1 = s 'Tkdpo2k3k4kSearch Class'
+	{
+		CLSID = s '{f6958577-3bde-47ed-8698-5952fd72c928}'
+	}
+	Tkdpo2k3k4k.Search = s 'Tkdpo2k3k4kSearch Class'
+	{
+		CLSID = s '{f6958577-3bde-47ed-8698-5952fd72c928}'
+		CurVer = s 'Tkdpo2k3k4k.Search.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {f6958577-3bde-47ed-8698-5952fd72c928} = s 'Tkdpo2k3k4kSearch Class'
+		{
+			ProgID = s 'Tkdpo2k3k4k.Search.1'
+			VersionIndependentProgID = s 'Tkdpo2k3k4k.Search'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Both'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{bc60a087-53df-40c4-ad8c-eab8ea632be5}'
+		}
+	}
+}

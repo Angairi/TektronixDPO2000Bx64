@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{13624CFB-009D-43F1-B519-8087CD8402B5}</ProjectGuid>
+    <RootNamespace>Tkdpo2k3k4k</RootNamespace>
+    <Keyword>AtlProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\bin\x86\$(Configuration)\</OutDir>
+    <IntDir>obj\x86\$(Configuration)\</IntDir>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\bin\x64\$(Configuration)\</OutDir>
+    <IntDir>obj\x64\$(Configuration)\</IntDir>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\bin\x86\$(Configuration)\</OutDir>
+    <IntDir>obj\x86\$(Configuration)\</IntDir>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\bin\x64\$(Configuration)\</OutDir>
+    <IntDir>obj\x64\$(Configuration)\</IntDir>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)Tkdpo2k3k4k.tlb</TypeLibraryName>
+      <HeaderFileName>_Tkdpo2k3k4k.h</HeaderFileName>
+      <DllDataFileName />
+      <InterfaceIdentifierFileName>_Tkdpo2k3k4k_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>Tkdpo2k3k4k_p.c</ProxyFileName>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\NTL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <RegisterOutput>true</RegisterOutput>
+      <PerUserRedirection>true</PerUserRedirection>
+      <AdditionalDependencies>IviFloat.lib;IviCShared.lib;visa32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Tkdpo2k3k4k.dll</OutputFile>
+      <ModuleDefinitionFile>.\Tkdpo2k3k4k-x86.nimbus.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>$(TargetDir)Tkdpo2k3k4k.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>PostBuild.nimbus.bat "$(TargetPath)" $(OutDir) x86</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)Tkdpo2k3k4k.tlb</TypeLibraryName>
+      <HeaderFileName>_Tkdpo2k3k4k.h</HeaderFileName>
+      <DllDataFileName />
+      <InterfaceIdentifierFileName>_Tkdpo2k3k4k_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>Tkdpo2k3k4k_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files\IVI Foundation\VISA\Win64\Include;C:\Program Files\IVI Foundation\IVI\Include;..\NTL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <PerUserRedirection>true</PerUserRedirection>
+      <AdditionalDependencies>IviFloat.lib;IviCShared.lib;visa64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Tkdpo2k3k4k_64.dll</OutputFile>
+      <ModuleDefinitionFile>.\Tkdpo2k3k4k-x64.nimbus.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>$(TargetDir)Tkdpo2k3k4k.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>PostBuild.nimbus.bat "$(TargetPath)" $(OutDir) x64</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)Tkdpo2k3k4k.tlb</TypeLibraryName>
+      <HeaderFileName>_Tkdpo2k3k4k.h</HeaderFileName>
+      <DllDataFileName />
+      <InterfaceIdentifierFileName>_Tkdpo2k3k4k_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>Tkdpo2k3k4k_p.c</ProxyFileName>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>..\NTL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <RegisterOutput>true</RegisterOutput>
+      <PerUserRedirection>true</PerUserRedirection>
+      <AdditionalDependencies>IviFloat.lib;IviCShared.lib;visa32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Tkdpo2k3k4k.dll</OutputFile>
+      <ModuleDefinitionFile>.\Tkdpo2k3k4k-x86.nimbus.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>$(TargetDir)Tkdpo2k3k4k.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>PostBuild.nimbus.bat "$(TargetPath)" $(OutDir) x86</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)Tkdpo2k3k4k.tlb</TypeLibraryName>
+      <HeaderFileName>_Tkdpo2k3k4k.h</HeaderFileName>
+      <DllDataFileName />
+      <InterfaceIdentifierFileName>_Tkdpo2k3k4k_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>Tkdpo2k3k4k_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>..\NTL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <PerUserRedirection>true</PerUserRedirection>
+      <AdditionalDependencies>IviFloat.lib;IviCShared.lib;visa64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Tkdpo2k3k4k_64.dll</OutputFile>
+      <ModuleDefinitionFile>.\Tkdpo2k3k4k-x64.nimbus.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>$(TargetDir)Tkdpo2k3k4k.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>PostBuild.nimbus.bat "$(TargetPath)" $(OutDir) x64</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CoTkdpo2k3k4k.cpp" />
+    <ClCompile Include="CoTkdpo2k3k4k.nimbus.cpp" />
+    <ClCompile Include="CoTkdpo2k3k4kBus.cpp" />
+    <ClCompile Include="CoTkdpo2k3k4kBus.nimbus.cpp" />
+    <ClCompile Include="CoTkdpo2k3k4kChannel.cpp" />
+    <ClCompile Include="CoTkdpo2k3k4kChannel.nimbus.cpp" />
+    <ClCompile Include="CoTkdpo2k3k4kDigitalChannel.cpp" />
+    <ClCompile Include="CoTkdpo2k3k4kDigitalChannel.nimbus.cpp" />
+    <ClCompile Include="CoTkdpo2k3k4kMath.cpp" />
+    <ClCompile Include="CoTkdpo2k3k4kMath.nimbus.cpp" />
+    <ClCompile Include="CoTkdpo2k3k4kMeasurementSlot.cpp" />
+    <ClCompile Include="CoTkdpo2k3k4kMeasurementSlot.nimbus.cpp" />
+    <ClCompile Include="CoTkdpo2k3k4kReference.cpp" />
+    <ClCompile Include="CoTkdpo2k3k4kReference.nimbus.cpp" />
+    <ClCompile Include="CoTkdpo2k3k4kSearch.cpp" />
+    <ClCompile Include="CoTkdpo2k3k4kSearch.nimbus.cpp" />
+    <ClCompile Include="Enums.nimbus.cpp" />
+    <ClCompile Include="ForwardingShims.nimbus.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Tkdpo2k3k4k.cpp" />
+    <ClCompile Include="Tkdpo2k3k4k.Module.cpp" />
+    <ClCompile Include="Tkdpo2k3k4k.nimbus.cpp" />
+    <ClCompile Include="_Tkdpo2k3k4k_i.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Tektronix.Tkdpo2k3k4k.Interop.xml" />
+    <Xml Include="Tkdpo2k3k4k.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tkdpo2k3k4k.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoTkdpo2k3k4k.h" />
+    <ClInclude Include="CoTkdpo2k3k4k.nimbus.h" />
+    <ClInclude Include="CoTkdpo2k3k4kBus.h" />
+    <ClInclude Include="CoTkdpo2k3k4kBus.nimbus.h" />
+    <ClInclude Include="CoTkdpo2k3k4kChannel.h" />
+    <ClInclude Include="CoTkdpo2k3k4kChannel.nimbus.h" />
+    <ClInclude Include="CoTkdpo2k3k4kDigitalChannel.h" />
+    <ClInclude Include="CoTkdpo2k3k4kDigitalChannel.nimbus.h" />
+    <ClInclude Include="CoTkdpo2k3k4kMath.h" />
+    <ClInclude Include="CoTkdpo2k3k4kMath.nimbus.h" />
+    <ClInclude Include="CoTkdpo2k3k4kMeasurementSlot.h" />
+    <ClInclude Include="CoTkdpo2k3k4kMeasurementSlot.nimbus.h" />
+    <ClInclude Include="CoTkdpo2k3k4kReference.h" />
+    <ClInclude Include="CoTkdpo2k3k4kReference.nimbus.h" />
+    <ClInclude Include="CoTkdpo2k3k4kSearch.h" />
+    <ClInclude Include="CoTkdpo2k3k4kSearch.nimbus.h" />
+    <ClInclude Include="ErrorReporter.nimbus.h" />
+    <ClInclude Include="ForwardingShims.nimbus.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="StdAfx.nimbus.h" />
+    <ClInclude Include="Tkdpo2k3k4k.h" />
+    <ClInclude Include="Tkdpo2k3k4k.nimbus.h" />
+    <ClInclude Include="_Tkdpo2k3k4k.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CoTkdpo2k3k4k.nimbus.rgs" />
+    <None Include="CoTkdpo2k3k4kBus.nimbus.rgs" />
+    <None Include="CoTkdpo2k3k4kChannel.nimbus.rgs" />
+    <None Include="CoTkdpo2k3k4kDigitalChannel.nimbus.rgs" />
+    <None Include="CoTkdpo2k3k4kMath.nimbus.rgs" />
+    <None Include="CoTkdpo2k3k4kMeasurementSlot.nimbus.rgs" />
+    <None Include="CoTkdpo2k3k4kReference.nimbus.rgs" />
+    <None Include="CoTkdpo2k3k4kSearch.nimbus.rgs" />
+    <CustomBuild Include="ErrorMessages.nimbus.mc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building message table</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mc.exe ErrorMessages.nimbus.mc
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ErrorMessages.nimbus.h;ErrorMessages.nimbus.rc;ErrorMessages.bin;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building message table</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mc.exe ErrorMessages.nimbus.mc
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ErrorMessages.nimbus.h;ErrorMessages.nimbus.rc;ErrorMessages.bin;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building message table</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mc.exe ErrorMessages.nimbus.mc
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ErrorMessages.nimbus.h;ErrorMessages.nimbus.rc;ErrorMessages.bin;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building message table</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mc.exe ErrorMessages.nimbus.mc
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ErrorMessages.nimbus.h;ErrorMessages.nimbus.rc;ErrorMessages.bin;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="PostBuild.nimbus.bat" />
+    <None Include="PostBuild.setup.bat" />
+    <None Include="Resources.nimbus.rc2" />
+    <None Include="Tkdpo2k3k4k-x64.nimbus.def" />
+    <None Include="Tkdpo2k3k4k-x86.nimbus.def" />
+    <None Include="Tkdpo2k3k4k.fp" />
+    <None Include="Tkdpo2k3k4k.nimbus.rgs" />
+    <None Include="Tkdpo2k3k4k.sub" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="Tkdpo2k3k4k.nimbus.idl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

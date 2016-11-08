@@ -1,0 +1,26 @@
+HKCR
+{
+	Tkdpo2k3k4k.MeasurementSlot.1 = s 'Tkdpo2k3k4kMeasurementSlot Class'
+	{
+		CLSID = s '{9967dc38-f144-4780-8f79-5a0447bb9846}'
+	}
+	Tkdpo2k3k4k.MeasurementSlot = s 'Tkdpo2k3k4kMeasurementSlot Class'
+	{
+		CLSID = s '{9967dc38-f144-4780-8f79-5a0447bb9846}'
+		CurVer = s 'Tkdpo2k3k4k.MeasurementSlot.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {9967dc38-f144-4780-8f79-5a0447bb9846} = s 'Tkdpo2k3k4kMeasurementSlot Class'
+		{
+			ProgID = s 'Tkdpo2k3k4k.MeasurementSlot.1'
+			VersionIndependentProgID = s 'Tkdpo2k3k4k.MeasurementSlot'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Both'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{bc60a087-53df-40c4-ad8c-eab8ea632be5}'
+		}
+	}
+}
